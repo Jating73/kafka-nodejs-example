@@ -1,0 +1,24 @@
+{
+  "name": "kafka-nodejs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test.js",
+    "devStart": "nodemon app.js",
+    "prodStart": "node app.js",
+    "kafka": "pm2 start pm2.config.js"
+  },
+  "keywords": [],
+  "author": "Jatin Gambhir",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "nodemon": "^2.0.20",
+    "axios": "^1.3.4",
+    "circular-json": "^0.5.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+
+.env
+
+app.js
+pm2.config.js
+
+package-lock.json
