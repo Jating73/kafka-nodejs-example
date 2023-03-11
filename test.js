@@ -11,6 +11,8 @@ const kafka = new Kafka({
 
 console.log("Test in main  branch")
 
+console.log("DIrect changes without pulling")
+
 // Create an instance of the Kafka producer
 const producer = kafka.producer();
 
