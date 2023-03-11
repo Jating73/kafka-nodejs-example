@@ -9,6 +9,8 @@ const kafka = new Kafka({
   brokers: ["localhost:9091", "localhost:9092"],
 });
 
+console.log("Test in main  branch")
+
 // Create an instance of the Kafka producer
 const producer = kafka.producer();
 
